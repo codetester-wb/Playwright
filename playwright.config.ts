@@ -54,7 +54,9 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
-    {
+    //Zo kun je het ook doen als hieronder, wel 1 van de 2 gebruiken anders worden alle testen dubbel uitgevoerd!
+    //Was eigenlijk bedoeld om van die scripts uit te voeren, zie package.json-file
+    /* {
       name: 'all-browsers-and-tests',
       use: { ...devices['Desktop Chrome'] },
     },
@@ -67,7 +69,7 @@ export default defineConfig({
     {
       name: 'all-browsers-and-tests',
       use: { ...devices['Desktop Safari'] },
-    }
+    } */
 
     /* Test against mobile viewports. */
     // {
